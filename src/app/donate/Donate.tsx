@@ -11,12 +11,23 @@ import { Textarea } from '@/components/ui/textarea'
 import Typography from '@/components/ui/typography'
 import districtUpozzilaData from '@/data/district_upozilla.json'
 import axios from 'axios'
+import { ArrowLeftIcon } from 'lucide-react'
+import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import toast from 'react-hot-toast'
 
-export const bloodGroups = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-']
+export const bloodGroups = [
+  { label: 'A+', value: 'a-plus' },
+  { label: 'A-', value: 'a-minus' },
+  { label: 'B+', value: 'b-plus' },
+  { label: 'B-', value: 'b-minus' },
+  { label: 'AB+', value: 'ab-plus' },
+  { label: 'AB-', value: 'ab-minus' },
+  { label: 'O+', value: 'o-plus' },
+  { label: 'O-', value: 'o-minus' },
+]
 
 export default function Donate() {
   const { push } = useRouter()
@@ -56,9 +67,14 @@ export default function Donate() {
 
   return (
     <div className='container py-10'>
-      <Typography variant='h2' className='mb-8'>
-        রক্ত দান করুন
-      </Typography>
+      <div className='flex items-center gap-x-3 mb-8'>
+        <Link href='/'>
+          <Button variant='outline'>
+            <ArrowLeftIcon className='size-5' />
+          </Button>
+        </Link>
+        <Typography variant='h2'>রক্ত দান করুন</Typography>
+      </div>
       <Form methods={methods} onSubmit={handleSubmit(onSubmit)}>
         <Input
           name='name'
@@ -88,8 +104,8 @@ export default function Donate() {
             </SelectTrigger>
             <SelectContent>
               {bloodGroups.map(group => (
-                <SelectItem key={group} value={group}>
-                  {group}
+                <SelectItem key={group.value} value={group.value}>
+                  {group.label}
                 </SelectItem>
               ))}
             </SelectContent>

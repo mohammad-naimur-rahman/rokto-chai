@@ -1,16 +1,11 @@
 'use client'
 
-import { Dispatch, SetStateAction, useState } from 'react'
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem } from '@/components/ui/command'
-import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
-import { Button } from '../ui/button'
-import { Check, ChevronsUpDown, Search } from 'lucide-react'
-import { cn } from '@/lib/utils'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select'
-import { bloodGroups } from '@/app/donate/Donate'
-import { Input } from '../ui/input'
 import districtUpozzilaData from '@/data/district_upozilla.json'
+import { Search } from 'lucide-react'
+import { Dispatch, SetStateAction } from 'react'
+import { Input } from '../ui/input'
 import { Label } from '../ui/label'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select'
 
 export interface District {
   district_name: string
