@@ -10,6 +10,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Textarea } from '@/components/ui/textarea'
 import Typography from '@/components/ui/typography'
 import districtUpozzilaData from '@/data/district_upozilla.json'
+import axios from 'axios'
+import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import toast from 'react-hot-toast'
@@ -17,6 +19,7 @@ import toast from 'react-hot-toast'
 export const bloodGroups = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-']
 
 export default function Donate() {
+  const { push } = useRouter()
   const methods = useForm()
   const { handleSubmit } = methods
 
@@ -24,12 +27,31 @@ export default function Donate() {
   const [district, setdistrict] = useState<string | undefined>(undefined)
   const [upozilla, setupozilla] = useState<string | undefined>(undefined)
 
-  const onSubmit = (data: any) => {
+  const [isLoading, setisLoading] = useState(false)
+
+  const onSubmit = async (data: any) => {
     if (!bloodGroup) return toast.error('রক্তের গ্রুপ নির্বাচন করুন')
     if (!district) return toast.error('জেলা নির্বাচন করুন')
     if (!upozilla) return toast.error('উপজেলা নির্বাচন করুন')
 
-    console.log({ ...data, bloodGroup, district, upozilla })
+    const allData = { ...data, blood_group: bloodGroup, district, upozilla }
+
+    console.log({ ...data, blood_group: bloodGroup, district, upozilla })
+
+    try {
+      setisLoading(true)
+      const response = await axios.post('/api/donation', allData)
+
+      if (response.status === 200) {
+        toast.success('আপনার সহযোগিতার জন্য অসংখ্য ধন্যবাদ!')
+        push('/')
+      }
+      setisLoading(false)
+    } catch (error) {
+      setisLoading(false)
+      console.error(error)
+      toast.error('আবার চেষ্টা করুন!')
+    }
   }
 
   return (
@@ -39,7 +61,7 @@ export default function Donate() {
       </Typography>
       <Form methods={methods} onSubmit={handleSubmit(onSubmit)}>
         <Input
-          name='full_name'
+          name='name'
           label='আপনার নাম'
           placeholder='আপনার নাম (ছদ্মনাম ব্যবহার করুন)'
           required
@@ -79,8 +101,8 @@ export default function Donate() {
           upozilla={upozilla}
           setupozilla={setupozilla}
         />
-        <Textarea name='name' label='ঠিকানা' placeholder='ঠিকানা (অপশনাল)' className='max-w-sm' />
-        <Button type='submit' variant='secondary'>
+        <Textarea name='address' label='ঠিকানা' placeholder='ঠিকানা (অপশনাল)' className='max-w-sm' />
+        <Button type='submit' variant='secondary' isLoading={isLoading}>
           তথ্য জমা দিন
         </Button>
       </Form>
