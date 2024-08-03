@@ -1,0 +1,816 @@
+[
+  {
+    "district_name": "Bagerhat (বাগেরহাট)",
+    "upozilla": [
+      "Bagerhat Sadar (বাগেরহাট সদর)",
+      "Chitalmari (চিতলমাড়ি)",
+      "Fakirhat (ফকিরহাট)",
+      "Kachua (কচুয়া)",
+      "Mollahat (মোল্লাহাট )",
+      "Mongla (মংলা)",
+      "Morrelganj (মরেলগঞ্জ)",
+      "Rampal (রামপাল)",
+      "Sarankhola (স্মরণখোলা)"
+    ]
+  },
+  {
+    "district_name": "Bandarban (বান্দরবান)",
+    "upozilla": [
+      "Bandarban Sadar (বান্দরবন সদর)",
+      "Thanchi (থানচি)",
+      "Lama (লামা)",
+      "Naikhongchhari (নাইখংছড়ি )",
+      "Ali kadam (আলী কদম)",
+      "Rowangchhari (রউয়াংছড়ি )",
+      "Ruma (রুমা)"
+    ]
+  },
+  {
+    "district_name": "Barguna (বরগুনা)",
+    "upozilla": [
+      "Amtali (আমতলী)",
+      "Bamna (বামনা)",
+      "Barguna Sadar (বরগুনা সদর)",
+      "Betagi (বেতাগি)",
+      "Patharghata (পাথরঘাটা)",
+      "Taltali (তালতলী)"
+    ]
+  },
+  {
+    "district_name": "Barishal (বরিশাল)",
+    "upozilla": [
+      "Muladi (মুলাদি)",
+      "Babuganj (বাবুগঞ্জ)",
+      "Agailjhara (আগাইলঝরা)",
+      "Barisal Sadar (বরিশাল সদর)",
+      "Bakerganj (বাকেরগঞ্জ)",
+      "Banaripara (বানাড়িপারা)",
+      "Gaurnadi (গৌরনদী)",
+      "Hizla (হিজলা)",
+      "Mehendiganj (মেহেদিগঞ্জ )",
+      "Wazirpur (ওয়াজিরপুর)"
+    ]
+  },
+  {
+    "district_name": "Bhola (ভোলা)",
+    "upozilla": [
+      "Bhola Sadar (ভোলা সদর)",
+      "Burhanuddin (বুরহানউদ্দিন)",
+      "Char Fasson (চর ফ্যাশন)",
+      "Daulatkhan (দৌলতখান)",
+      "Lalmohan (লালমোহন)",
+      "Manpura (মনপুরা)",
+      "Tazumuddin (তাজুমুদ্দিন)"
+    ]
+  },
+  {
+    "district_name": "Bogura (বগুড়া)",
+    "upozilla": [
+      "Adamdighi (আদমদিঘী)",
+      "Bogra Sadar (বগুড়া সদর)",
+      "Sherpur (শেরপুর)",
+      "Dhunat (ধুনট)",
+      "Dhupchanchia (দুপচাচিয়া)",
+      "Gabtali (গাবতলি)",
+      "Kahaloo (কাহালু)",
+      "Nandigram (নন্দিগ্রাম)",
+      "Sahajanpur (শাহজাহানপুর)",
+      "Sariakandi (সারিয়াকান্দি)",
+      "Shibganj (শিবগঞ্জ)",
+      "Sonatala (সোনাতলা)"
+    ]
+  },
+  {
+    "district_name": "Brahmanbaria (ব্রাহ্মণবাড়িয়া)",
+    "upozilla": [
+      "Brahmanbaria Sadar (ব্রাহ্মণবাড়িয়া সদর)",
+      "Ashuganj (আশুগঞ্জ)",
+      "Nasirnagar (নাসির নগর)",
+      "Nabinagar (নবীনগর)",
+      "Sarail (সরাইল)",
+      "Shahbazpur Town (শাহবাজপুর টাউন)",
+      "Kasba (কসবা)",
+      "Akhaura (আখাউরা)",
+      "Bancharampur (বাঞ্ছারামপুর)",
+      "Bijoynagar (বিজয় নগর)"
+    ]
+  },
+  {
+    "district_name": "Chandpur (চাঁদপুর)",
+    "upozilla": [
+      "Chandpur Sadar (চাঁদপুর সদর)",
+      "Faridganj (ফরিদগঞ্জ)",
+      "Haimchar (হাইমচর)",
+      "Haziganj (হাজীগঞ্জ)",
+      "Kachua (কচুয়া)",
+      "Matlab Uttar (মতলব উত্তর)",
+      "Matlab Dakkhin (মতলব দক্ষিণ)",
+      "Shahrasti (শাহরাস্তি)"
+    ]
+  },
+  {
+    "district_name": "Chattogram (চট্টগ্রাম)",
+    "upozilla": [
+      "Anwara (আনোয়ারা)",
+      "Banshkhali (বাশখালি)",
+      "Boalkhali (বোয়ালখালি)",
+      "Chandanaish (চন্দনাইশ)",
+      "Fatikchhari (ফটিকছড়ি)",
+      "Hathazari (হাঠহাজারী)",
+      "Lohagara (লোহাগারা)",
+      "Mirsharai (মিরসরাই)",
+      "Patiya (পটিয়া)",
+      "Rangunia (রাঙ্গুনিয়া)",
+      "Raozan (রাউজান)",
+      "Sandwip (সন্দ্বীপ)",
+      "Satkania (সাতকানিয়া)",
+      "Sitakunda (সীতাকুণ্ড)"
+    ]
+  },
+  {
+    "district_name": "Chuadanga (চুয়াডাঙ্গা)",
+    "upozilla": [
+      "Damurhuda (দামুরহুদা)",
+      "Chuadanga-S (চুয়াডাঙ্গা সদর)",
+      "Jibannagar (জীবন নগর )",
+      "Alamdanga (আলমডাঙ্গা)"
+    ]
+  },
+  {
+    "district_name": "Cox's Bazar (কক্স বাজার)",
+    "upozilla": [
+      "Chakaria (চকরিয়া)",
+      "{{198}}''{{199}} (কক্স বাজার সদর)",
+      "Kutubdia (কুতুবদিয়া)",
+      "Maheshkhali (মহেশখালী)",
+      "Ramu (রামু)",
+      "Teknaf (টেকনাফ)",
+      "Ukhia (উখিয়া)",
+      "Pekua (পেকুয়া)",
+      "Eidgaon (ঈদগাঁও)"
+    ]
+  },
+  {
+    "district_name": "Cumilla (কুমিল্লা)",
+    "upozilla": [
+      "Barura (বড়ুরা)",
+      "Brahmanpara (ব্রাহ্মণপাড়া)",
+      "Burichong (বুড়িচং)",
+      "Chandina (চান্দিনা)",
+      "Chauddagram (চৌদ্দগ্রাম)",
+      "Daudkandi (দাউদকান্দি)",
+      "Debidwar (দেবীদ্বার)",
+      "Homna (হোমনা)",
+      "Comilla Sadar (কুমিল্লা সদর)",
+      "Laksam (লাকসাম)",
+      "Monohorgonj (মনোহরগঞ্জ)",
+      "Meghna (মেঘনা)",
+      "Muradnagar (মুরাদনগর)",
+      "Nangalkot (নাঙ্গালকোট)",
+      "Comilla Sadar South (কুমিল্লা সদর দক্ষিণ)",
+      "Titas (তিতাস)"
+    ]
+  },
+  {
+    "district_name": "Dhaka (ঢাকা)",
+    "upozilla": [
+      "Dhamrai (ধামরাই)",
+      "Dohar (দোহার)",
+      "Keraniganj (কেরানীগঞ্জ)",
+      "Nawabganj (নবাবগঞ্জ)",
+      "Savar (সাভার)"
+    ]
+  },
+  {
+    "district_name": "Dinajpur (দিনাজপুর)",
+    "upozilla": [
+      "Birampur (বিরামপুর)",
+      "Birganj (বীরগঞ্জ)",
+      "Biral (বিড়াল)",
+      "Bochaganj (বোচাগঞ্জ)",
+      "Chirirbandar (চিরিরবন্দর)",
+      "Phulbari (ফুলবাড়ি)",
+      "Ghoraghat (ঘোড়াঘাট)",
+      "Hakimpur (হাকিমপুর)",
+      "Kaharole (কাহারোল)",
+      "Khansama (খানসামা)",
+      "Dinajpur Sadar (দিনাজপুর সদর)",
+      "Nawabganj (নবাবগঞ্জ)",
+      "Parbatipur (পার্বতীপুর)"
+    ]
+  },
+  {
+    "district_name": "Faridpur (ফরিদপুর)",
+    "upozilla": [
+      "Faridpur Sadar (ফরিদপুর সদর)",
+      "Boalmari (বোয়ালমারী)",
+      "Alfadanga (আলফাডাঙ্গা)",
+      "Madhukhali (মধুখালি)",
+      "Bhanga (ভাঙ্গা)",
+      "Nagarkanda (নগরকান্ড)",
+      "Charbhadrasan (চরভদ্রাসন )",
+      "Sadarpur (সদরপুর)",
+      "Shaltha (শালথা)"
+    ]
+  },
+  {
+    "district_name": "Feni (ফেনী)",
+    "upozilla": [
+      "Feni Sadar (ফেনী সদর)",
+      "Chagalnaiya (ছাগল নাইয়া)",
+      "Daganbhyan (দাগানভিয়া)",
+      "Parshuram (পরশুরাম)",
+      "Fhulgazi (ফুলগাজি)",
+      "Sonagazi (সোনাগাজি)"
+    ]
+  },
+  {
+    "district_name": "Gaibandha (গাইবান্ধা)",
+    "upozilla": [
+      "Fulchhari (ফুলছড়ি)",
+      "Gaibandha sadar (গাইবান্ধা সদর)",
+      "Gobindaganj (গোবিন্দগঞ্জ)",
+      "Palashbari (পলাশবাড়ী)",
+      "Sadullapur (সাদুল্যাপুর)",
+      "Saghata (সাঘাটা)",
+      "Sundarganj (সুন্দরগঞ্জ)"
+    ]
+  },
+  {
+    "district_name": "Gazipur (গাজীপুর)",
+    "upozilla": [
+      "Gazipur Sadar-Joydebpur (গাজীপুর সদর)",
+      "Kaliakior (কালিয়াকৈর)",
+      "Kapasia (কাপাসিয়া)",
+      "Sripur (শ্রীপুর)",
+      "Kaliganj (কালীগঞ্জ)",
+      "Tongi (টঙ্গি)"
+    ]
+  },
+  {
+    "district_name": "Gopalganj (গোপালগঞ্জ)",
+    "upozilla": [
+      "Gopalganj Sadar (গোপালগঞ্জ সদর)",
+      "Kashiani (কাশিয়ানি)",
+      "Kotalipara (কোটালিপাড়া)",
+      "Muksudpur (মুকসুদপুর)",
+      "Tungipara (টুঙ্গিপাড়া)"
+    ]
+  },
+  {
+    "district_name": "Habiganj (হবিগঞ্জ)",
+    "upozilla": [
+      "Ajmiriganj (আজমিরিগঞ্জ)",
+      "Baniachang (বানিয়াচং)",
+      "Bahubal (বাহুবল)",
+      "Chunarughat (চুনারুঘাট)",
+      "Habiganj Sadar (হবিগঞ্জ সদর)",
+      "Lakhai (লাক্ষাই)",
+      "Madhabpur (মাধবপুর)",
+      "Nabiganj (নবীগঞ্জ)",
+      "Shaistagonj (শায়েস্তাগঞ্জ)"
+    ]
+  },
+  {
+    "district_name": "Jamalpur (জামালপুর)",
+    "upozilla": [
+      "Dewanganj (দেওয়ানগঞ্জ)",
+      "Baksiganj (বকসিগঞ্জ)",
+      "Islampur (ইসলামপুর)",
+      "Jamalpur Sadar (জামালপুর সদর)",
+      "Madarganj (মাদারগঞ্জ)",
+      "Melandaha (মেলানদাহা)",
+      "Sarishabari (সরিষাবাড়ি )",
+      "Narundi Police I.C (নারুন্দি)"
+    ]
+  },
+  {
+    "district_name": "Jashore (যশোর)",
+    "upozilla": [
+      "Abhaynagar (অভয়নগর)",
+      "Keshabpur (কেশবপুর)",
+      "Bagherpara (বাঘের পাড়া )",
+      "Jessore Sadar (যশোর সদর)",
+      "Chaugachha (চৌগাছা)",
+      "Manirampur (মনিরামপুর )",
+      "Jhikargachha (ঝিকরগাছা)",
+      "Sharsha (সারশা)"
+    ]
+  },
+  {
+    "district_name": "Jhalokati (ঝালকাঠি)",
+    "upozilla": [
+      "Jhalokati Sadar (ঝালকাঠি সদর)",
+      "Kathalia (কাঁঠালিয়া)",
+      "Nalchity (নালচিতি)",
+      "Rajapur (রাজাপুর)"
+    ]
+  },
+  {
+    "district_name": "Jhenaidah (ঝিনাইদহ)",
+    "upozilla": [
+      "Jhenaidah Sadar (ঝিনাইদহ সদর)",
+      "Maheshpur (মহেশপুর)",
+      "Kaliganj (কালীগঞ্জ)",
+      "Kotchandpur (কোট চাঁদপুর )",
+      "Shailkupa (শৈলকুপা)",
+      "Harinakunda (হাড়িনাকুন্দা)"
+    ]
+  },
+  {
+    "district_name": "Joypurhat (জয়পুরহাট)",
+    "upozilla": [
+      "Joypurhat S (জয়পুরহাট সদর)",
+      "Akkelpur (আক্কেলপুর)",
+      "Kalai (কালাই)",
+      "Khetlal (খেতলাল)",
+      "Panchbibi (পাঁচবিবি)"
+    ]
+  },
+  {
+    "district_name": "Khagrachari (খাগড়াছড়ি)",
+    "upozilla": [
+      "Dighinala (দিঘিনালা )",
+      "Khagrachhari (খাগড়াছড়ি)",
+      "Lakshmichhari (লক্ষ্মীছড়ি)",
+      "Mahalchhari (মহলছড়ি)",
+      "Manikchhari (মানিকছড়ি)",
+      "Matiranga (মাটিরাঙ্গা)",
+      "Panchhari (পানছড়ি)",
+      "Ramgarh (রামগড়)"
+    ]
+  },
+  {
+    "district_name": "Khulna (খুলনা)",
+    "upozilla": [
+      "Terokhada (তেরোখাদা)",
+      "Batiaghata (বাটিয়াঘাটা )",
+      "Dacope (ডাকপে)",
+      "Dumuria (ডুমুরিয়া)",
+      "Dighalia (দিঘলিয়া)",
+      "Koyra (কয়ড়া)",
+      "Paikgachha (পাইকগাছা)",
+      "Phultala (ফুলতলা)",
+      "Rupsa (রূপসা)"
+    ]
+  },
+  {
+    "district_name": "Kishoreganj (কিশোরগঞ্জ)",
+    "upozilla": [
+      "Astagram (অষ্টগ্রাম)",
+      "Bajitpur (বাজিতপুর)",
+      "Bhairab (ভৈরব)",
+      "Hossainpur (হোসেনপুর )",
+      "Itna (ইটনা)",
+      "Karimganj (করিমগঞ্জ)",
+      "Katiadi (কতিয়াদি)",
+      "Kishoreganj Sadar (কিশোরগঞ্জ সদর)",
+      "Kuliarchar (কুলিয়ারচর)",
+      "Mithamain (মিঠামাইন)",
+      "Nikli (নিকলি)",
+      "Pakundia (পাকুন্ডা)",
+      "Tarail (তাড়াইল)"
+    ]
+  },
+  {
+    "district_name": "Kurigram (কুড়িগ্রাম)",
+    "upozilla": [
+      "Kurigram Sadar (কুড়িগ্রাম সদর)",
+      "Nageshwari (নাগেশ্বরী)",
+      "Bhurungamari (ভুরুঙ্গামারি)",
+      "Phulbari (ফুলবাড়ি)",
+      "Rajarhat (রাজারহাট)",
+      "Ulipur (উলিপুর)",
+      "Chilmari (চিলমারি)",
+      "Rowmari (রউমারি)",
+      "Char Rajibpur (চর রাজিবপুর)"
+    ]
+  },
+  {
+    "district_name": "Kushtia (কুষ্টিয়া)",
+    "upozilla": [
+      "Kushtia Sadar (কুষ্টিয়া সদর)",
+      "Kumarkhali (কুমারখালি)",
+      "Daulatpur (দৌলতপুর)",
+      "Mirpur (মিরপুর)",
+      "Bheramara (ভেরামারা)",
+      "Khoksa (খোকসা)"
+    ]
+  },
+  {
+    "district_name": "Lakshmipur (লক্ষ্মীপুর)",
+    "upozilla": [
+      "Lakshmipur Sadar (লক্ষ্মীপুর সদর)",
+      "Raipur (রায়পুর)",
+      "Ramganj (রামগঞ্জ)",
+      "Ramgati (রামগতি)",
+      "Komol Nagar (কমল নগর)"
+    ]
+  },
+  {
+    "district_name": "Lalmonirhat (লালমনিরহাট)",
+    "upozilla": [
+      "Lalmanirhat Sadar (লালমনিরহাট সদর)",
+      "Aditmari (আদিতমারি)",
+      "Kaliganj (কালীগঞ্জ)",
+      "Hatibandha (হাতিবান্ধা)",
+      "Patgram (পাটগ্রাম)"
+    ]
+  },
+  {
+    "district_name": "Madaripur (মাদারীপুর)",
+    "upozilla": [
+      "Madaripur Sadar (মাদারীপুর সদর)",
+      "Kalkini (কালকিনি)",
+      "Rajoir (রাজইর)",
+      "Shibchar (শিবচর)",
+      "Dasar (দশর)"
+    ]
+  },
+  {
+    "district_name": "Magura (মাগুরা)",
+    "upozilla": [
+      "Magura Sadar (মাগুরা সদর)",
+      "Mohammadpur (মোহাম্মাদপুর)",
+      "Shalikha (শালিখা)",
+      "Sreepur (শ্রীপুর)"
+    ]
+  },
+  {
+    "district_name": "Manikganj (মানিকগঞ্জ)",
+    "upozilla": [
+      "Manikganj Sadar (মানিকগঞ্জ সদর)",
+      "Singair (সিঙ্গাইর)",
+      "Shibalaya (শিবালয়)",
+      "Saturia (সাটুরিয়া)",
+      "Harirampur (হরিরামপুর)",
+      "Ghior (ঘিওর)",
+      "Daulatpur (দৌলতপুর)"
+    ]
+  },
+  {
+    "district_name": "Maulvibazar (মৌলভীবাজার)",
+    "upozilla": [
+      "Moulvibazar Sadar (মৌলভীবাজার)",
+      "Barlekha (বড়লেখা)",
+      "Juri (জুড়ি)",
+      "Kamalganj (কামালগঞ্জ)",
+      "Kulaura (কুলাউরা)",
+      "Rajnagar (রাজনগর)",
+      "Sreemangal (শ্রীমঙ্গল)"
+    ]
+  },
+  {
+    "district_name": "Meherpur (মেহেরপুর)",
+    "upozilla": [
+      "angni (আংনি)",
+      "Mujib Nagar (মুজিব নগর)",
+      "Meherpur-S (মেহেরপুর সদর)"
+    ]
+  },
+  {
+    "district_name": "Munshiganj (মুন্সিগঞ্জ)",
+    "upozilla": [
+      "Lohajang (লোহাজং)",
+      "Sreenagar (শ্রীনগর)",
+      "Munshiganj Sadar (মুন্সিগঞ্জ সদর)",
+      "Sirajdikhan (সিরাজদিখান)",
+      "Tongibari (টঙ্গিবাড়ি)",
+      "Gazaria (গজারিয়া)"
+    ]
+  },
+  {
+    "district_name": "Mymensingh (ময়মনসিংহ)",
+    "upozilla": [
+      "Bhaluka (ভালুকা)",
+      "Trishal (ত্রিশাল)",
+      "Haluaghat (হালুয়াঘাট)",
+      "Muktagachha (মুক্তাগাছা)",
+      "Dhobaura (ধবারুয়া)",
+      "Fulbaria (ফুলবাড়িয়া)",
+      "Gaffargaon (গফরগাঁও)",
+      "Gauripur (গৌরিপুর)",
+      "Ishwarganj (ঈশ্বরগঞ্জ)",
+      "Mymensingh Sadar (ময়মনসিং সদর)",
+      "Nandail (নন্দাইল)",
+      "Phulpur (ফুলপুর)"
+    ]
+  },
+  {
+    "district_name": "Naogaon (নওগাঁ)",
+    "upozilla": [
+      "Naogaon Sadar (নওগাঁ সদর)",
+      "Mohadevpur (মহাদেবপুর)",
+      "Manda (মান্দা)",
+      "Niamatpur (নিয়ামতপুর)",
+      "Atrai (আত্রাই)",
+      "Raninagar (রাণীনগর)",
+      "Patnitala (পত্নীতলা)",
+      "Dhamoirhat (ধামইরহাট )",
+      "Sapahar (সাপাহার)",
+      "Porsha (পোরশা)",
+      "Badalgachhi (বদলগাছি)"
+    ]
+  },
+  {
+    "district_name": "Narail (নড়াইল)",
+    "upozilla": [
+      "Narail-S Upazilla (নড়াইল সদর)",
+      "Lohagara Upazilla (লোহাগাড়া)",
+      "Kalia Upazilla (কালিয়া)"
+    ]
+  },
+  {
+    "district_name": "Narayanganj (নারায়াণগঞ্জ)",
+    "upozilla": [
+      "Araihazar (আড়াইহাজার)",
+      "Sonargaon (সোনারগাঁও)",
+      "Bandar (বান্দার)",
+      "Naryanganj Sadar (নারায়ানগঞ্জ সদর)",
+      "Rupganj (রূপগঞ্জ)",
+      "Siddirgonj (সিদ্ধিরগঞ্জ)"
+    ]
+  },
+  {
+    "district_name": "Narsingdi (নরসিংদী)",
+    "upozilla": [
+      "Belabo (বেলাবো)",
+      "Monohardi (মনোহরদি)",
+      "Narsingdi Sadar (নরসিংদী সদর)",
+      "Palash (পলাশ)",
+      "Raipura, Narsingdi (রায়পুর)",
+      "Shibpur (শিবপুর)"
+    ]
+  },
+  {
+    "district_name": "Natore (নাটোর)",
+    "upozilla": [
+      "Natore Sadar (নাটোর সদর)",
+      "Baraigram (বড়াইগ্রাম)",
+      "Bagatipara (বাগাতিপাড়া)",
+      "Lalpur (লালপুর)",
+      "Natore Sadar (নাটোর সদর)",
+      "Baraigram (বড়াই গ্রাম)"
+    ]
+  },
+  {
+    "district_name": "Nawabganj (নবাবগঞ্জ)",
+    "upozilla": [
+      "Bholahat (ভোলাহাট)",
+      "Gomastapur (গোমস্তাপুর)",
+      "Nachole (নাচোল)",
+      "Nawabganj Sadar (নবাবগঞ্জ সদর)",
+      "Shibganj (শিবগঞ্জ)"
+    ]
+  },
+  {
+    "district_name": "Netrokona (নেত্রকোণা)",
+    "upozilla": [
+      "Kendua Upazilla (কেন্দুয়া)",
+      "Atpara Upazilla (আটপাড়া)",
+      "Barhatta Upazilla (বরহাট্টা)",
+      "Durgapur Upazilla (দুর্গাপুর)",
+      "Kalmakanda Upazilla (কলমাকান্দা)",
+      "Madan Upazilla (মদন)",
+      "Mohanganj Upazilla (মোহনগঞ্জ)",
+      "Netrakona-S Upazilla (নেত্রকোনা সদর)",
+      "Purbadhala Upazilla (পূর্বধলা)",
+      "Khaliajuri Upazilla (খালিয়াজুরি)"
+    ]
+  },
+  {
+    "district_name": "Nilphamari (নীলফামারী)",
+    "upozilla": [
+      "Nilphamari Sadar (নীলফামারী সদর)",
+      "Saidpur (সৈয়দপুর)",
+      "Jaldhaka (জলঢাকা)",
+      "Kishoreganj (কিশোরগঞ্জ)",
+      "Domar (ডোমার)",
+      "Dimla (ডিমলা)"
+    ]
+  },
+  {
+    "district_name": "Noakhali (নোয়াখালী)",
+    "upozilla": [
+      "Noakhali Sadar (নোয়াখালী সদর)",
+      "Begumganj (বেগমগঞ্জ)",
+      "Chatkhil (চাটখিল)",
+      "Companyganj (কোম্পানীগঞ্জ)",
+      "Shenbag (শেনবাগ)",
+      "Hatia (হাতিয়া)",
+      "Kobirhat (কবিরহাট )",
+      "Sonaimuri (সোনাইমুরি)",
+      "Suborno Char (সুবর্ণ চর )"
+    ]
+  },
+  {
+    "district_name": "Pabna (পাবনা)",
+    "upozilla": [
+      "Atgharia (আটঘরিয়া)",
+      "Bera (বেড়া)",
+      "Bhangura (ভাঙ্গুরা)",
+      "Chatmohar (চাটমোহর)",
+      "Faridpur (ফরিদপুর)",
+      "Ishwardi (ঈশ্বরদী)",
+      "Pabna Sadar (পাবনা সদর)",
+      "Santhia (সাথিয়া)",
+      "Sujanagar (সুজানগর)"
+    ]
+  },
+  {
+    "district_name": "Panchagarh (পঞ্চগড়)",
+    "upozilla": [
+      "Panchagarh Sadar (পঞ্চগড় সদর)",
+      "Debiganj (দেবীগঞ্জ)",
+      "Boda (বোদা)",
+      "Atwari (আটোয়ারি)",
+      "Tetulia (তেঁতুলিয়া)"
+    ]
+  },
+  {
+    "district_name": "Patuakhali (পটুয়াখালী)",
+    "upozilla": [
+      "Bauphal (বাউফল)",
+      "Dashmina (দশমিনা)",
+      "Galachipa (গলাচিপা)",
+      "Kalapara (কালাপারা)",
+      "Mirzaganj (মির্জাগঞ্জ )",
+      "Patuakhali Sadar (পটুয়াখালী সদর)",
+      "Dumki (ডুমকি)",
+      "Rangabali (রাঙ্গাবালি)"
+    ]
+  },
+  {
+    "district_name": "Pirojpur (পিরোজপুর)",
+    "upozilla": [
+      "Bhandaria (ভ্যান্ডারিয়া)",
+      "Kaukhali (কাউখালি)",
+      "Mathbaria (মাঠবাড়িয়া)",
+      "Nazirpur (নাজিরপুর)",
+      "Nesarabad (নেসারাবাদ)",
+      "Pirojpur Sadar (পিরোজপুর সদর)",
+      "Zianagar (জিয়ানগর)"
+    ]
+  },
+  {
+    "district_name": "Rajbari (রাজবাড়ি)",
+    "upozilla": [
+      "Baliakandi (বালিয়াকান্দি)",
+      "Goalandaghat (গোয়ালন্দ ঘাট)",
+      "Pangsha (পাংশা)",
+      "Kalukhali (কালুখালি)",
+      "Rajbari Sadar (রাজবাড়ি সদর)"
+    ]
+  },
+  {
+    "district_name": "Rajshahi (রাজশাহী)",
+    "upozilla": [
+      "Bagha (বাঘা)",
+      "Bagmara (বাগমারা)",
+      "Charghat (চারঘাট)",
+      "Durgapur (দুর্গাপুর)",
+      "Godagari (গোদাগারি)",
+      "Mohanpur (মোহনপুর)",
+      "Paba (পবা)",
+      "Puthia (পুঠিয়া)",
+      "Tanore (তানোর)"
+    ]
+  },
+  {
+    "district_name": "Rangamati (রাঙ্গামাটি)",
+    "upozilla": [
+      "Rangamati Sadar (রাঙ্গামাটি সদর)",
+      "Belaichhari (বেলাইছড়ি)",
+      "Bagaichhari (বাঘাইছড়ি)",
+      "Barkal (বরকল)",
+      "Juraichhari (জুরাইছড়ি)",
+      "Rajasthali (রাজাস্থলি)",
+      "Kaptai (কাপ্তাই)",
+      "Langadu (লাঙ্গাডু)",
+      "Nannerchar (নান্নেরচর )",
+      "Kaukhali (কাউখালি)"
+    ]
+  },
+  {
+    "district_name": "Rangpur (রংপুর)",
+    "upozilla": [
+      "Badarganj (বদরগঞ্জ)",
+      "Mithapukur (মিঠাপুকুর)",
+      "Gangachara (গঙ্গাচরা)",
+      "Kaunia (কাউনিয়া)",
+      "Rangpur Sadar (রংপুর সদর)",
+      "Pirgachha (পীরগাছা)",
+      "Pirganj (পীরগঞ্জ)",
+      "Taraganj (তারাগঞ্জ)"
+    ]
+  },
+  {
+    "district_name": "Satkhira (সাতক্ষীরা)",
+    "upozilla": [
+      "Satkhira Sadar (সাতক্ষীরা সদর)",
+      "Assasuni (আসসাশুনি )",
+      "Debhata (দেভাটা)",
+      "Tala (তালা)",
+      "Kalaroa (কলরোয়া)",
+      "Kaliganj (কালীগঞ্জ)",
+      "Shyamnagar (শ্যামনগর)"
+    ]
+  },
+  {
+    "district_name": "Shariatpur (শরীয়তপুর)",
+    "upozilla": [
+      "Shariatpur Sadar -Palong (শরীয়তপুর সদর )",
+      "Damudya (দামুদিয়া)",
+      "Naria (নড়িয়া)",
+      "Jajira (জাজিরা)",
+      "Bhedarganj (ভেদারগঞ্জ)",
+      "Gosairhat (গোসাইর হাট )"
+    ]
+  },
+  {
+    "district_name": "Sherpur (শেরপুর)",
+    "upozilla": [
+      "Jhenaigati (ঝিনাইগাতি)",
+      "Nakla (নাকলা)",
+      "Nalitabari (নালিতাবাড়ি)",
+      "Sherpur Sadar (শেরপুর সদর)",
+      "Sreebardi (শ্রীবরদি)"
+    ]
+  },
+  {
+    "district_name": "Sirajgonj (সিরাজগঞ্জ)",
+    "upozilla": [
+      "Sirajganj Sadar (সিরাজগঞ্জ সদর)",
+      "Belkuchi (বেলকুচি)",
+      "Chauhali (চৌহালি)",
+      "Kamarkhanda (কামারখান্দা)",
+      "Kazipur (কাজীপুর)",
+      "Raiganj (রায়গঞ্জ)",
+      "Shahjadpur (শাহজাদপুর)",
+      "Tarash (তারাশ)",
+      "Ullahpara (উল্লাপাড়া)"
+    ]
+  },
+  {
+    "district_name": "Sunamganj (সুনামগঞ্জ)",
+    "upozilla": [
+      "Bishwamvarpur (বিসশম্ভারপুর)",
+      "Chhatak (ছাতক)",
+      "Derai (দেড়াই)",
+      "Dharampasha (ধরমপাশা)",
+      "Dowarabazar (দোয়ারাবাজার)",
+      "Jagannathpur (জগন্নাথপুর)",
+      "Jamalganj (জামালগঞ্জ)",
+      "Sulla (সুল্লা)",
+      "Sunamganj Sadar (সুনামগঞ্জ সদর)",
+      "Shanthiganj (শান্তিগঞ্জ)",
+      "Tahirpur (তাহিরপুর)",
+      "Modhyanagar (মধ্যনগর)"
+    ]
+  },
+  {
+    "district_name": "Sylhet (সিলেট)",
+    "upozilla": [
+      "Sylhet Sadar (সিলেট সদর)",
+      "Beanibazar (বেয়ানিবাজার)",
+      "Bishwanath (বিশ্বনাথ)",
+      "Dakshin Surma (দক্ষিণ সুরমা)",
+      "Balaganj (বালাগঞ্জ)",
+      "Companiganj (কোম্পানিগঞ্জ)",
+      "Fenchuganj (ফেঞ্চুগঞ্জ)",
+      "Golapganj (গোলাপগঞ্জ)",
+      "Gowainghat (গোয়াইনঘাট)",
+      "Jointapur (জৈন্তাপুর)",
+      "Kanaighat (কানাইঘাট)",
+      "Zakiganj (জাকিগঞ্জ)",
+      "Nobigonj (নবীগঞ্জ)"
+    ]
+  },
+  {
+    "district_name": "Tangail (টাঙ্গাইল)",
+    "upozilla": [
+      "Tangail Sadar (টাঙ্গাইল সদর)",
+      "Sakhipur (সখিপুর)",
+      "Basail (বসাইল)",
+      "Madhupur (মধুপুর)",
+      "Ghatail (ঘাটাইল)",
+      "Kalihati (কালিহাতি)",
+      "Nagarpur (নগরপুর)",
+      "Mirzapur (মির্জাপুর)",
+      "Gopalpur (গোপালপুর)",
+      "Delduar (দেলদুয়ার)",
+      "Bhuapur (ভুয়াপুর)",
+      "Dhanbari (ধানবাড়ি)"
+    ]
+  },
+  {
+    "district_name": "Thakurgaon (ঠাকুরগাঁও)",
+    "upozilla": [
+      "Thakurgaon Sadar (ঠাকুরগাঁও সদর)",
+      "Pirganj (পীরগঞ্জ)",
+      "Baliadangi (বালিয়াডাঙ্গি)",
+      "Haripur (হরিপুর)",
+      "Ranisankail (রাণীসংকইল)"
+    ]
+  }
+]
