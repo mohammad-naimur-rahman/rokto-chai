@@ -38,18 +38,18 @@ function CopyText({ text }: { text: string }) {
 export default function Donations({ data, isLoading }: Props) {
   if (isLoading) {
     return (
-      <div className='grid grid-cols-4 gap-4'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-10'>
         {Array.from({ length: 8 }).map((_, i) => (
-          <Skeleton key={i} className='w-full h-48' />
+          <Skeleton key={i} className='w-full h-48 shadow-md' />
         ))}
       </div>
     )
   }
 
   return (
-    <div className='grid grid-cols-4 gap-4 mt-10'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-10'>
       {data?.map(d => (
-        <div key={d?._id} className='p-3 rounded-lg shadow-lg border text-sm space-y-1'>
+        <div key={d?._id} className='p-3 rounded-lg shadow-md border border-gray-100 text-sm space-y-1'>
           <div className='flex items-center justify-between gap-x-3'>
             <Typography variant='h5'>{d?.name}</Typography>
             <Typography variant='h3' className='text-primary'>
