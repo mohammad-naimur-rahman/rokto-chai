@@ -2,6 +2,7 @@
 
 import SelectDistrict from '@/components/common/select-district'
 import SelectUpozilla from '@/components/common/select-upozilla'
+import Donations from '@/components/pages/get-donation/Donations'
 import { Button } from '@/components/ui/button'
 import Form from '@/components/ui/form'
 import { Label } from '@/components/ui/label'
@@ -86,6 +87,8 @@ export default function GetDonation() {
           রক্ত দানকারী খুঁজুন
         </Button>
       </Form>
+
+      <Donations data={data} isLoading={isLoading} />
     </div>
   )
 }

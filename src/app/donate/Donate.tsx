@@ -19,14 +19,14 @@ import { useForm } from 'react-hook-form'
 import toast from 'react-hot-toast'
 
 export const bloodGroups = [
-  { label: 'A+', value: 'a-plus' },
-  { label: 'A-', value: 'a-minus' },
-  { label: 'B+', value: 'b-plus' },
-  { label: 'B-', value: 'b-minus' },
-  { label: 'AB+', value: 'ab-plus' },
-  { label: 'AB-', value: 'ab-minus' },
-  { label: 'O+', value: 'o-plus' },
-  { label: 'O-', value: 'o-minus' },
+  { label: 'A+', value: 'a-positive' },
+  { label: 'A-', value: 'a-negative' },
+  { label: 'B+', value: 'b-positive' },
+  { label: 'B-', value: 'b-negative' },
+  { label: 'AB+', value: 'ab-positive' },
+  { label: 'AB-', value: 'ab-negative' },
+  { label: 'O+', value: 'o-positive' },
+  { label: 'O-', value: 'o-negative' },
 ]
 
 export default function Donate() {
