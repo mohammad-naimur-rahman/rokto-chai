@@ -38,7 +38,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
     return (
       <div className={cn(containerClassName, { 'flex flex-col gap-y-2': label })}>
         {label && (
-          <Label className={cn('text-text-tartiary', labelClassName)}>
+          <Label className={cn('text-foreground', labelClassName)}>
             {label}
             {required ? '*' : null}
           </Label>

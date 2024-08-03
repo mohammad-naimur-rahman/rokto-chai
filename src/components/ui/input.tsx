@@ -3,8 +3,8 @@
 import * as React from 'react'
 
 import { cn } from '@/lib/utils'
-import { RegisterOptions, useFormContext } from 'react-hook-form'
 import { Eye, EyeOff } from 'lucide-react'
+import { RegisterOptions, useFormContext } from 'react-hook-form'
 import FormFieldError from './form-field-error'
 import { Label } from './label'
 
@@ -14,7 +14,6 @@ export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> 
   icon?: React.ReactNode
   hookFormConfig?: RegisterOptions
   label?: string
-  showLabel?: boolean
   labelClassName?: string
 }
 
@@ -34,7 +33,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     return (
       <div className={cn(containerClassName, { 'flex flex-col gap-y-2': label })}>
         {label && (
-          <Label className={cn('text-text-gray', labelClassName)} htmlFor={name}>
+          <Label className={cn('text-foreground', labelClassName)} htmlFor={name}>
             {label}
             {required ? '*' : null}
           </Label>
