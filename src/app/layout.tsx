@@ -1,9 +1,13 @@
+import { cn } from '@/lib/utils'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Noto_Sans as FontSans } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const fontSans = FontSans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+})
 
 export const metadata: Metadata = {
   title: 'Rokto Chai',
@@ -16,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en'>
-      <body className={inter.className}>
+    <html lang='bn'>
+      <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
         {children}
         <Toaster position='top-center' />
       </body>
