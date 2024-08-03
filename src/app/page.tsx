@@ -1,4 +1,5 @@
 import bloodTypeImg from '@/assets/images/blood-type.jpeg'
+import GithubButton from '@/components/pages/homepage/GithubButton'
 import { Button } from '@/components/ui/button'
 import Typography from '@/components/ui/typography'
 import Image from 'next/image'
@@ -6,7 +7,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className='container flex flex-col md:flex-row min-h-screen items-center justify-center md:justify-between space-y-12 space-x-10 py-20 md:py-5'>
+    <main className='container flex flex-col md:flex-row min-h-screen items-center justify-center md:justify-between space-y-12 space-x-10 py-20 md:py-5 relative'>
       <div className='w-full md:w-1/2 flex flex-col space-y-5 items-center justify-center min-h-[50vh] md:min-h-[auto'>
         <Typography variant='h2' className='text-center text-balance'>
           রক্ত দিন, জীবন বাঁচান
@@ -30,6 +31,8 @@ export default function Home() {
         <Image src={bloodTypeImg} alt='blood type' width={500} height={500} />
         <p className='text-center text-sm italic text-gray-500'>Collected image</p>
       </div>
+
+      <GithubButton />
     </main>
   )
 }
